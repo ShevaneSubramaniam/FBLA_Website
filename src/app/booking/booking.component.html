@@ -1,7 +1,36 @@
-<section id="main">
-    <section id="contact-us" class="contact-us-section">
-        <div class="surrounding-box">
+<body>
+    <main>
+      <section id="main">
+        <section id="booking" class="booking-section">
+          <div class="surrounding-box">
             <h1>Book a Room</h1>
-        </div>
-    </section>
-</section>
+          </div>
+        </section>
+      </section>
+      <div>
+        <table class="roomTable">
+            <tr *ngFor="let row of rooms.slice(0, 3); let i = index">
+            <td *ngFor="let room of rooms.slice(i * 2, i * 2 + 2); let j = index"
+                class="roomCard">
+              <div style="overflow: hidden;">
+                <img [src]="room.image" alt="{{ room.title }}" class="roomImg">
+                <div style="float: left;">
+                  <h3>{{ room.title }}</h3>
+                  <p>Cost: ${{ room.cost }}</p>
+                  <ul style="list-style: none; padding: 0;">
+                    <li *ngFor="let amenity of room.amenities">{{ amenity }}</li>
+                  </ul>
+                  <p>{{ room.description }}</p>
+                </div>
+                <div style="clear: both; text-align: center; margin-top: 10px;">
+                  <button class="bookButton">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>

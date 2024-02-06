@@ -1,0 +1,46 @@
+body {
+    font-family: 'Cormorant Garamond', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Set a background color */
+    min-height: 100vh;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section#about-us {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    background-image: url('/assets/greenbrownfloral.png'); /* Adjust the path to match your folder structure and image file name */
+    background-size: 22%;
+    background-position: center;
+    color: #ffffff; /* Set text color to be visible against the background image */
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center;
+    height: 20vh; /* Adjust the height as needed */
+    
+}
+
+section#about-us h1 {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    color: #6e4905dc;
+    font-size: 3vw;
+}
+
+.about-section {
+    border: 5px solid #6e4905dc; /* Add a green border around the services section */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center the text within the green box */
+}
+.surrounding-box {
+    display: inline-block; /* Make the box inline with the text */
+    background-color: #c3ecaa;
+    padding: 10px; /* Add padding for spacing */
+}
