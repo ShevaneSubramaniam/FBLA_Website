@@ -92,3 +92,7 @@ h1 {
     border: 2px solid #678f5e; /* Add a green border around the box */
     padding: 10px; /* Add padding for spacing */
 }
+
+.cardImage{
+    width: 2vw;
+}
