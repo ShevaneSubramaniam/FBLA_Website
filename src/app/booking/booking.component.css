@@ -67,6 +67,7 @@ td {
     object-fit: cover; 
     float: left; 
     margin-right: 15px;
+    border-radius: 10px;
 }
 
 .bookButton {

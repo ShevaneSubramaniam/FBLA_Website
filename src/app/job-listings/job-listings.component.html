@@ -32,6 +32,7 @@
     
         <div id="job-listings">
             <div class="job-card" *ngFor="let job of filteredJobs" [hidden]="!job.visible">
+                <p>Job ID: {{ job.id }}</p>
                 <h2>{{ job.title }}</h2>
                 <p>Location: {{ job.location }}</p>
                 <p>Salary: {{ job.salary }}</p>
@@ -44,7 +45,7 @@
                 <p>Qualifications: {{ job.qualifications }}</p>
     
                 <!-- Apply Button -->
-                <button class="apply-button">Apply</button>
+                <button class="apply-button" [routerLink]="['/jobApplicationForm', job.id]">Apply</button>
             </div>
         </div>
     </main>

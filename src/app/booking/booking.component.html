@@ -18,7 +18,9 @@
                   <h3>{{ room.title }}</h3>
                   <p>Cost: ${{ room.cost }}</p>
                   <ul style="list-style: none; padding: 0;">
-                    <li *ngFor="let amenity of room.amenities">{{ amenity }}</li>
+                    <li *ngFor="let amenity of room.amenities">
+                        <span style="display: inline-block; margin-right: 5px;">&bull;</span>{{ amenity }}
+                      </li>
                   </ul>
                   <p>{{ room.description }}</p>
                 </div>
@@ -34,3 +36,4 @@
       </div>
     </main>
   </body>
+

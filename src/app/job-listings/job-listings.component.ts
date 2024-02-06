@@ -10,6 +10,7 @@ export class JobListingsComponent implements OnInit {
   locationFilter: string = '';
   jobTitleFilter: string = '';
   jobs: {
+    id: number,
     title: string,
     location: string,
     salary: string,
@@ -24,6 +25,7 @@ export class JobListingsComponent implements OnInit {
     // Sample job listings, replace with actual data
     this.jobs = [
       {
+        id: 322,
         title: 'Web Developer',
         location: 'New York',
         salary: '$70,000 - $90,000',
@@ -32,6 +34,7 @@ export class JobListingsComponent implements OnInit {
         visible: true
       },
       {
+        id: 223,
         title: 'UX Designer',
         location: 'San Francisco',
         salary: '$80,000 - $100,000',
@@ -40,6 +43,7 @@ export class JobListingsComponent implements OnInit {
         visible: true
       },
       {
+        id: 455,
         title: 'Data Analyst',
         location: 'Boston',
         salary: '$60,000 - $80,000',
@@ -48,6 +52,7 @@ export class JobListingsComponent implements OnInit {
         visible: true
       },
       {
+        id: 777,
         title: 'Data Analyst',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
@@ -56,6 +61,7 @@ export class JobListingsComponent implements OnInit {
         visible: true
       },
       {
+        id: 734,
         title: 'Data Analyst',
         location: 'Atlanta',
         salary: '$60,000 - $80,000',
@@ -64,6 +70,7 @@ export class JobListingsComponent implements OnInit {
         visible: true
       },
       {
+        id: 633,
         title: 'Data Analyst',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
@@ -72,6 +79,7 @@ export class JobListingsComponent implements OnInit {
         visible: true
       },
       {
+        id: 733,
         title: 'Data Analyst',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
@@ -80,6 +88,7 @@ export class JobListingsComponent implements OnInit {
         visible: true
       },
       {
+        id: 931,
         title: 'Data Analyst',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
@@ -88,6 +97,7 @@ export class JobListingsComponent implements OnInit {
         visible: true
       },
       {
+        id: 633,
         title: 'Data Analyst',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
@@ -112,7 +122,7 @@ export class JobListingsComponent implements OnInit {
     }
   }
 
-  get filteredJobs(): { title: string, location: string, salary: string, description: string, qualifications: string, visible: boolean }[] {
+  get filteredJobs(): { id: number, title: string, location: string, salary: string, description: string, qualifications: string, visible: boolean }[] {
     return this.jobs;
   }
 }
