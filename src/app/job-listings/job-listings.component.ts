@@ -17,7 +17,7 @@ export class JobListingsComponent implements OnInit {
   constructor(private jobService: JobService) {}
 
   ngOnInit(): void {
-    // Sample job listings, replace with actual data
+    // Sample job listings, replace with actual data ####### MAKE SURE IDS ARE DIFFERENT #########
     this.jobs = [
       {
         id: 322,

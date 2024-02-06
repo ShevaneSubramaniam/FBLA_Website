@@ -50,4 +50,15 @@ export class BookingComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  onSubmit() {
+     setTimeout(() => {
+      this.showSuccessPopup();
+    }, 250);
+  }
+
+  // Method to display success popup
+  showSuccessPopup() {
+    alert('Please call 302-302-3012 to schedule a booking for this room!');
+  }
 }

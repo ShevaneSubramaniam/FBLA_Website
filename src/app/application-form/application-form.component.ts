@@ -51,6 +51,6 @@ export class ApplicationFormComponent {
 
   // Method to display success popup
   showSuccessPopup() {
-    alert('Form submitted successfully!');
+    alert('Application submitted successfully!');
   }
 }

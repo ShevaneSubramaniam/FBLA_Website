@@ -19,7 +19,7 @@
             background-color: #242323; /* Adjust the background color to match the image color */
             color: #ecf0f1; /* Adjust the text color to match the image color */
             font-family: 'Cormorant Garamond', sans-serif;
-            font-size: .7vw;
+            font-size: 1vw;
         }
 
         .navbar-nav .nav-link {

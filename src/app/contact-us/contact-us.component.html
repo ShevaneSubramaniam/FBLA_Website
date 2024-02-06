@@ -12,18 +12,22 @@
 <h2>Phone Number: (302)-302-3012</h2>
     <main>
         
-        <form>
+        <form #contactUs="ngForm" (ngSubmit)="onSubmit(contactUs)">
             <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" ngModel required>
 
             <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" ngModel required>
 
             <label for="subject">Your Subject:</label>
-            <input type="subject" id="subject" name="subject" required>
+            <input type="subject" id="subject" name="subject" ngModel required>
 
             <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <textarea id="message" name="message" rows="4" ngModel required></textarea>
+
+            <div *ngIf="contactUs.invalid && contactUs.submitted" class="alert alert-danger">
+                Please fill in all required fields.
+            </div>
 
             <button type="submit">Submit</button>
         </form>

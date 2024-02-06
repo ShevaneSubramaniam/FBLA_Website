@@ -10,6 +10,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { BookingComponent } from './booking/booking.component';
 import { ApplicationFormComponent } from './application-form/application-form.component';
+import { GallaryComponent } from './gallary/gallary.component';
 
 
 
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path: 'copyright', component: CopyrightComponent},
   {path: 'booking', component: BookingComponent},
   { path: 'jobApplicationForm/:jobId', component: ApplicationFormComponent },
+  {path: 'gallary', component: GallaryComponent},
   {path: '', component: HomeComponent}
 ];
 
@@ -33,4 +35,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [AboutUsComponent, ServicesComponent, JobListingsComponent, HomeComponent, ContactUsComponent, CopyrightComponent, BookingComponent, ApplicationFormComponent]
+export const routingComponents = [AboutUsComponent, ServicesComponent, JobListingsComponent, HomeComponent, ContactUsComponent, CopyrightComponent, BookingComponent, ApplicationFormComponent, GallaryComponent]
