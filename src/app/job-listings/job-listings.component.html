@@ -1,0 +1,53 @@
+<!-- job-listings.component.html -->
+<body>
+    <main>
+
+        
+        <section id="main">
+            <section id="contact-us" class="contact-us-section">
+                <div class="surrounding-box">
+                    <h1>Job Listings</h1>
+                </div>
+            </section>
+        </section>
+    
+        <!-- Filter Bar with Spacing -->
+        <div class="filter-bar">
+            <label for="filter-location">Filter by Location: </label>
+            <select id="filter-location" [(ngModel)]="locationFilter">
+                <option value="">All Locations</option>
+                <option value="New York">New York</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Boston">Boston</option>
+                <option value="Atlanta">Atlanta</option>
+                <!-- Add more locations as needed -->
+            </select>
+    
+            <label for="search-job">Search by Job Title:</label>
+            <input type="text" id="search-job" [(ngModel)]="jobTitleFilter" placeholder="Enter job title...">
+    
+            <button (click)="filterJobs()">Apply Filters</button>
+        </div>
+    
+        <div id="job-listings">
+            <div class="job-card" *ngFor="let job of filteredJobs" [hidden]="!job.visible">
+                <h2>{{ job.title }}</h2>
+                <p>Location: {{ job.location }}</p>
+                <p>Salary: {{ job.salary }}</p>
+    
+                <!-- Centered Job Description -->
+                <div style="text-align: center;">
+                    <p>Description: {{ job.description }}</p>
+                </div>
+    
+                <p>Qualifications: {{ job.qualifications }}</p>
+    
+                <!-- Apply Button -->
+                <button class="apply-button">Apply</button>
+            </div>
+        </div>
+    </main>
+    
+    
+</body>

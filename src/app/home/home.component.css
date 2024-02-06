@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+
+
+/* Credit to https://animate.style/ */ 
+
+
+body, html{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Cormorant Garamond', sans-serif;
+    overflow-x: hidden;
+    background-color: #6d6969; /* Set the background color to gray */
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 110vh;
+    /* for 2nd Section */
+    /* grid-template-rows: 955px 200px;  */
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+    width: 5.5em;
+    margin-left: 3%;
+    margin-top: 1em;
+    font-size: 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .2em;
+    color: rgb(255, 255, 255);
+    border: solid cyan 4px;
+    border-bottom: -20em;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+@keyframes popup{
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.header .nav-btn{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.header .nav-btn ul {
+    display: flex;
+}
+
+.header .nav-btn ul li a{
+    margin-right: 2rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.hero-main {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+
+}
+
+.hero-main .hero-contents {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 700px;
+  height: 700px;
+  margin-left: 80px;
+  margin-top: 30px;
+  animation-name: popup;
+  
+    animation-duration: 2s;
+   }
+
+   .hero-img-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px ;
+    width: 120px;
+    border: solid 4px rgba(36,35,35,255);
+   }
+
+   .content-box {
+    border: 2px solid white; /* Set a white border */
+   
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+
+   .brandName{
+   font-size: 100px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, cursive;
+   font-weight: 900;
+   font-family: 'Cormorant Garamond', sans-serif;
+   }
+
+   .hero-text{
+    margin-top: -60px;
+    margin-bottom: 20px;
+   }
+
+
+   .header .nav-btn ul li:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px ;
+    width: 100px;
+    padding: 5px;
+    margin-top: -12px;
+    margin-left: 20px;
+    border: solid 2px cyan;
+    
+}
+
+.header .nav-btn ul li:nth-child(4) .acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -30px;
+}
+
+.row {
+ padding: 3%;
+}
+
+#first-col {
+    padding-top: 5%;
+}
+
+#third-col {
+    padding-top: 2%;
+}
+
+.col-lg-4 img {
+    transition: filter 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.col-lg-4 .image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.col-lg-4 img:hover {
+    filter: grayscale(100%); /* Turn the image to grayscale on hover */
+}
+
+.image-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-size:5vh;
+    color: #fff; /* Set the caption text color */
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.col-lg-4 .image-container:hover .image-caption {
+    opacity: 1; /* Show caption on hover */
+    
+}
