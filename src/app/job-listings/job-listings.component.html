@@ -45,7 +45,7 @@
                 <p>Qualifications: {{ job.qualifications }}</p>
     
                 <!-- Apply Button -->
-                <button class="apply-button" [routerLink]="['/jobApplicationForm', job.id]">Apply</button>
+                <button class="apply-button" (click)="selectJob(job.id)" [routerLink]="['/jobApplicationForm', job.id]">Apply</button>
             </div>
         </div>
     </main>

@@ -1,1 +1,15 @@
-<p>application-form works!</p>
+
+<body>
+    <section id="main">
+        <section id="job-listings" class="job-listings-section">
+            <div class="surrounding-box">
+                <h1>Application Form for {{ job.title }}</h1>
+            </div>
+        </section>
+    </section>
+    <p>Job ID: {{ job.id }}</p>
+    <p>Location: {{ job.location }}</p>
+    <p>Salary: {{ job.salary }}</p>
+    <p>Description: {{ job.description }}</p>
+    <p>Qualifications: {{ job.qualifications }}</p>
+</body>

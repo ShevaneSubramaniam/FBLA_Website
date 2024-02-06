@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Job } from '../job';
+import { JobService } from '../job.service';
 
 @Component({
   selector: 'app-job-listings',
@@ -9,17 +11,10 @@ export class JobListingsComponent implements OnInit {
 
   locationFilter: string = '';
   jobTitleFilter: string = '';
-  jobs: {
-    id: number,
-    title: string,
-    location: string,
-    salary: string,
-    description: string,
-    qualifications: string,
-    visible: boolean
-  }[] = [];
+  jobs: Job[] = []; // Use the Job interface
 
-  constructor() { }
+
+  constructor(private jobService: JobService) {}
 
   ngOnInit(): void {
     // Sample job listings, replace with actual data
@@ -121,6 +116,17 @@ export class JobListingsComponent implements OnInit {
                              (jobTitle.includes(jobTitleFilter));
     }
   }
+
+  selectJob(jobId: number): void {
+    // Find the job with the given ID
+    const selectedJob = this.jobs.find(job => job.id === jobId);
+  
+    // Do something with the selected job object, such as passing it to a service
+    if (selectedJob) {
+      this.jobService.setJobObject(selectedJob);
+    }
+  }
+
 
   get filteredJobs(): { id: number, title: string, location: string, salary: string, description: string, qualifications: string, visible: boolean }[] {
     return this.jobs;

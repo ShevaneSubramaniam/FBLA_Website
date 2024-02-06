@@ -1,0 +1,48 @@
+body {
+    font-family: 'Cormorant Garamond', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Set a background color */
+    min-height: 100vh;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+ }
+ .job-listings-section {
+    border: 5px solid rgb(83, 37, 3); /* Add a green border around the services section */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center the text within the green box */
+}
+
+.surrounding-box {
+    display: inline-block; /* Make the box inline with the text */
+    background-color: rgb(131, 64, 13); /* Add a green background color */
+    border: 2px rgb(150, 68, 6); /* Add a green border around the box */
+    padding: 10px; /* Add padding for spacing */
+}
+
+section#job-listings {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    background-image: url('/assets/brownfloral.png'); /* Adjust the path to match your folder structure and image file name */
+    background-size: 22%;
+    background-position: center;
+    color: #ffffff; /* Set text color to be visible against the background image */
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center;
+    height: 20vh; /* Adjust the height as needed */
+    
+}
+section#main {
+    padding: 20px;
+}
