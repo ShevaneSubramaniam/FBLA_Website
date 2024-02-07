@@ -20,14 +20,14 @@ export class BookingComponent implements OnInit {
       title: 'Standard Room',
       image: '/assets/Standard.png',
       cost: 100,
-      amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning'],
+      amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', '',''],
       description: 'A comfortable standard room with basic amenities.'
     },
     {
       title: 'Deluxe Room',
       image: '/assets/Deluxe.jpg',
       cost: 150,
-      amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar'],
+      amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar',''],
       description: 'An upgraded room with additional amenities for a luxurious stay.'
     },
     {
