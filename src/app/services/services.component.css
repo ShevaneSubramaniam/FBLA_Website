@@ -43,6 +43,9 @@ section#about-us h1 {
 }
 
 
+section#about-us h2 {
+     font-size: 1vw;
+}
 
 
 
@@ -67,7 +70,7 @@ td {
     justify-content: center; /* Horizontally center the content */
     width: 20vw;
     text-align: center;
-    height: 35vh;
+    height: 350vh;
     margin: 0 auto; /* Center the card within the table cell */
     border: 2px solid green; /* Add a green border */
     padding: 10px; /* Add padding for spacing */
@@ -85,6 +88,9 @@ h1 {
 
     margin: 0; /* Remove default margin for h1 element */
 }
+
+
+
 
 .green-box {
     display: inline-block; /* Make the box inline with the text */
