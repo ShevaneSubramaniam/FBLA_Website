@@ -8,7 +8,6 @@ body {
 
 
 
-
 main {
     padding: 20px;
 }
@@ -41,7 +40,6 @@ section#about-us h1 {
     color: white;
     font-size: 3vw;
 }
-
 
 
 
@@ -84,6 +82,8 @@ h1 {
 
     margin: 0; /* Remove default margin for h1 element */
 }
+
+
 
 
 
