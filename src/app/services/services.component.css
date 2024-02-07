@@ -68,7 +68,7 @@ td {
     justify-content: center; /* Horizontally center the content */
     width: 20vw;
     text-align: center;
-    height: 350vh;
+    height: 3vh;
     margin: 0 auto; /* Center the card within the table cell */
     border: 2px solid green; /* Add a green border */
     padding: 10px; /* Add padding for spacing */
