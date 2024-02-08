@@ -104,11 +104,11 @@ td {
      border-spacing: 15px;
 }
 
-.roomCard {
-    display: flex;
-    flex-direction: column; /* Stacks children elements vertically */
-    align-items: center; /* Aligns items to the center */
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
+
+  .roomCard {
+    border: 2px solid #9c7d42dc; 
+    text-align: left; 
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
