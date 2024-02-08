@@ -6,8 +6,28 @@
           <h1>Book a Room</h1>
         </div>
         <div class="rooms-container">
-          <div *ngFor="let room of rooms" class="roomCard">
-            <!-- Image container added here -->
+          <!-- Assuming static placement for illustration -->
+          <!-- Display first two room cards -->
+          <div *ngFor="let room of rooms.slice(0, 2);" class="roomCard">
+            <div class="image-container">
+              <img [src]="room.image" alt="{{ room.title }}" class="roomImg">
+            </div>
+            <h3>{{ room.title }}</h3>
+            <p>Cost: ${{ room.cost }}</p>
+            <ul class="amenities-list">
+              <li *ngFor="let amenity of room.amenities">{{ amenity }}</li>
+            </ul>
+            <p>{{ room.description }}</p>
+            <button class="bookButton" (click)="onSubmit()">Book Now</button>
+          </div>
+
+          <!-- Intermediate Box -->
+          <div class="intermediate-box">
+            <p>Explore Special Offers</p>
+          </div>
+
+          <!-- Display last two room cards -->
+          <div *ngFor="let room of rooms.slice(2, 4);" class="roomCard">
             <div class="image-container">
               <img [src]="room.image" alt="{{ room.title }}" class="roomImg">
             </div>
