@@ -39,11 +39,20 @@ section#booking h1 {
     padding: 10px; /* Add padding for spacing */
     text-align: center; /* Center the text within the green box */
 }
+
+
 .surrounding-box {
     display: inline-block; /* Make the box inline with the text */
-    background-color: #9b7749;
+    background-color: #9b7749; /* Specific shade of brown */
     padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Optional: adds rounded corners for aesthetics */
+    color: #ffffff; /* Optional: changes text color to white for contrast */
+    text-align: center; /* Optional: centers the text inside the box */
+    margin-bottom: 20px; /* Optional: adds space below the box */
+    width: auto; /* Optional: adjusts width based on content + padding */
+    max-width: 100%; /* Ensures the box does not exceed its container's width */
 }
+
 
 table {
     width: 80%; /* Adjust the width as needed */
