@@ -1,41 +1,20 @@
-/* Adjusts the room image sizes */
-.roomImg {
-    display: block; /* Ensures the image is a block-level element */
-    max-width: 100%; /* Limits the image width to not exceed its container */
-    height: auto; /* Maintains the aspect ratio of the image */
-    margin: 0 auto 15px; /* Centers the image and adds space below */
-    border-radius: 4px; /* Optional: Adds rounded corners to the image */
-  }
-  
-  /* Styles for the room card to ensure consistent layout */
-  .roomCard {
+.rooms-container {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers content within the card */
-    text-align: center; /* Ensures text elements are centered */
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds subtle shadow for depth */
-    margin-bottom: 20px; /* Space between room cards */
-    background-color: #fff; /* Background color for the card */
-    border-radius: 8px; /* Rounded corners for the card */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Distributes space between and around content items */
+    padding: 20px; /* Adds padding around the container */
   }
   
-  /* Additional styles for consistency and aesthetics */
-  .room-title, .room-cost, .amenities-list, .room-description, .bookButton {
-    margin: 10px 0; /* Adds vertical spacing around elements */
+  .roomCard {
+    flex: 1 0 48%; /* Allows the card to grow and take up to 48% of the container's width */
+    margin-bottom: 20px; /* Adds space below each card */
+    
+    /* Rest of your roomCard styles */
   }
   
-  .bookButton {
-    cursor: pointer; /* Changes the cursor to indicate clickable */
-    padding: 10px 20px; /* Padding inside the button */
-    background-color: #007bff; /* Button color */
-    color: #fff; /* Text color */
-    border: none; /* Removes border */
-    border-radius: 4px; /* Rounded corners for the button */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-  }
-  
-  .bookButton:hover {
-    background-color: #0056b3; /* Darker shade on hover for visual feedback */
+  @media (max-width: 768px) {
+    .roomCard {
+      flex: 1 0 100%; /* On smaller screens, each card takes full width */
+    }
   }
   
