@@ -5,6 +5,10 @@
     margin-bottom: 15px;
   }
   
+  body {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
   .roomImg {
     width: 100%;
     height: auto;
@@ -52,3 +56,8 @@
     background-color: #fff; /* Sets the background color of the box */
     /* Other styles remain unchanged */
   }
+
+  h2 {
+    text-align: center;
+ }
+ 
