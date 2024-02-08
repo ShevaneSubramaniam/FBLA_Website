@@ -21,10 +21,10 @@ export class JobListingsComponent implements OnInit {
     this.jobs = [
       {
         id: 322,
-        title: 'Web Developer',
+        title: 'Hotel Manager',
         location: 'New York',
         salary: '$70,000 - $90,000',
-        description: 'Join our dynamic web development team and contribute to innovative projects.',
+        description: 'A hotel manager oversees all operations of a hotel, including hiring and training staff, setting standards for guest services, handling complex tasks and conflicts and establishing and enforcing policies. They also collaborate with other administrators to manage budgets, purchasing, vendor relationships, inventory and sales..',
         qualifications: 'Bachelor\'s degree in Computer Science, experience with HTML, CSS, and JavaScript.',
         visible: true
       },

@@ -44,7 +44,8 @@ section#about-us h1 {
 
 
 .card h2 {
-    font-size: 1vw; /* Adjusts the font size based on the width of the viewport */
+    font-size: 1.2vw; /* Adjusts the font size based on the width of the viewport */
+    font-weight: bold;
 }
 
 

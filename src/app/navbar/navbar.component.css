@@ -22,8 +22,13 @@
             font-size: 1vw;
         }
 
+
         .navbar-nav .nav-link {
             color: #ecf0f1; /* Adjust the text color of the navbar links */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: gray; /* Adjust the text color of the navbar links */
         }
 
         .navbar-toggler-icon {
