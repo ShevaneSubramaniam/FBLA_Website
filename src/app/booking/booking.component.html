@@ -7,32 +7,15 @@
         </div>
       </section>
     </section>
-    <div>
-      <table class="roomTable">
-          <tr *ngFor="let row of rooms.slice(0, 3); let i = index">
-          <td *ngFor="let room of rooms.slice(i * 2, i * 2 + 2); let j = index"
-              class="roomCard">
-            <div class="clearfix">
-              <img [src]="room.image" alt="{{ room.title }}" class="roomImg">
-              <div class="room-details">
-                <h3>{{ room.title }}</h3>
-                <p>Cost: ${{ room.cost }}</p>
-                <ul class="amenities-list">
-                  <li *ngFor="let amenity of room.amenities" class="amenity-item">
-                      <span>&bull;</span> {{ amenity }}
-                    </li>
-                </ul>
-                <p>{{ room.description }}</p>
-              </div>
-              <div style="text-align: center; margin-top: 10px;">
-                <button class="bookButton" (click)="onSubmit()">
-                  Book Now
-                </button>
-              </div>
-            </div>
-          </td>
-        </tr>
-      </table>
+    <div *ngFor="let room of rooms" class="roomCard">
+      <img [src]="room.image" alt="{{ room.title }}" class="roomImg">
+      <h3 class="room-title">{{ room.title }}</h3>
+      <p class="room-cost">Cost: ${{ room.cost }}</p>
+      <ul class="amenities-list">
+        <li *ngFor="let amenity of room.amenities">{{ amenity }}</li>
+      </ul>
+      <p class="room-description">{{ room.description }}</p>
+      <button class="bookButton" (click)="onSubmit()">Book Now</button>
     </div>
   </main>
 </body>
