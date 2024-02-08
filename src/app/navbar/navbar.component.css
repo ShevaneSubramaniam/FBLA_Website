@@ -28,7 +28,7 @@
         }
 
         .navbar-nav .nav-link:hover {
-            color: gray; /* Adjust the text color of the navbar links */
+            color: Orange; /* Adjust the text color of the navbar links */
         }
 
         .navbar-toggler-icon {
