@@ -17,28 +17,28 @@ interface Room {
 export class BookingComponent implements OnInit {
   rooms: Room[] = [
     {
-      title: 'Standard Room',
+      title: 'Khushi Room',
       image: '/assets/Standard.png',
       cost: 100,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning'],
-      description: 'A comfortable standard room with basic amenities.'
+      description: 'A comfortable Khushi Room with basic amenities.'
     },
     {
-      title: 'Deluxe Room',
+      title: 'Shaandaar Suite',
       image: '/assets/Deluxe.png',
       cost: 150,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar'],
       description: 'An upgraded room with additional amenities for a luxurious stay.'
     },
     {
-      title: 'Suite',
+      title: 'Kohinoor Suite',
       image: '/assets/Suite.png',
       cost: 200,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar', 'Private Jacuzzi'],
       description: 'A spacious suite with premium amenities for a luxurious experience.'
     },
     {
-      title: 'Royal',
+      title: 'Shaahee Suite',
       image: '/assets/Royal.png',
       cost: 250,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar', 'Private Jacuzzi'],
