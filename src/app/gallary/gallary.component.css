@@ -31,11 +31,23 @@ a{
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
-.image-container img {
-    width: 100%; /* Ensures the image width is 100% of its container */
-    height: 200px; /* Adjust this value to suit your design needs */
-    object-fit: cover; /* Ensures the image covers the area, may crop some parts */
-    border-radius: .25rem; /* Optional: Adds rounded corners */
+.image-container {
+    text-align: center; /* Center images and captions */
+    padding: 10px; /* Optional: Adds some space around the image */
+}
+
+/* Specific class for images to ensure uniform size and aspect ratio */
+.uniform-img {
+    width: 100%; /* Full width of its parent container to maintain responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 16 / 9; /* Adjust this value to fit the desired aspect ratio */
+    object-fit: cover; /* Cover the area of the element's box, which might crop the image */
+    border-radius: 5px; /* Optional: Adds rounded corners for aesthetics */
+}
+
+/* Style for captions to ensure consistency */
+.image-caption {
+    margin-top: 8px; /* Space between image and caption */
 }
 
 .header{
