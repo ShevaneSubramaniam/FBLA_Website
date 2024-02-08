@@ -1,10 +1,4 @@
-.rooms-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    justify-content: space-between; /* Distributes space between and around content items */
-    padding: 20px; /* Adds padding around the container */
-  }
-  
+
   .roomCard {
     flex: 1 0 48%; /* Allows the card to grow and take up to 48% of the container's width */
     margin-bottom: 20px; /* Adds space below each card */
@@ -12,9 +6,15 @@
     /* Rest of your roomCard styles */
   }
   
-  @media (max-width: 768px) {
-    .roomCard {
-      flex: 1 0 100%; /* On smaller screens, each card takes full width */
-    }
+  .rooms-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Adds padding around the container */
   }
   
+  @media (max-width: 768px) {
+    .rooms-container {
+      grid-template-columns: 1fr; /* On smaller screens, use one column layout */
+    }
+  }
