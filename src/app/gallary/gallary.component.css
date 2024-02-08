@@ -32,12 +32,11 @@ a{
 }
 
 .image-container img {
-    width: 100%; /* maintain full width */
-    height: 200px; /* fixed height for all images */
-    object-fit: cover; /* this will cover the area of the given height, might crop images */
-    border-radius: .25rem; /* optional: to maintain rounded corners if desired */
+    width: 100% !important; /* Ensures width is always 100% of its container */
+    height: 200px !important; /* Sets a fixed height for all images */
+    object-fit: cover !important; /* Ensures images cover the area without distortion */
+    border-radius: .25rem !important; /* Maintains rounded corners, if desired */
 }
-
 
 
 .header{
