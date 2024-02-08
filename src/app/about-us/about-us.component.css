@@ -113,7 +113,7 @@ td {
     display: flex;
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
-    width: 20vw;
+    width: 25vw;
     text-align: center;
     height: 30vh;
     margin: 0 auto; /* Center the card within the table cell */
@@ -123,5 +123,5 @@ td {
 }
 
 .cardImage{
-    width: 4vw;
+    width: 3vw;
 }
