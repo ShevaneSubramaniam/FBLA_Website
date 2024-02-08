@@ -79,16 +79,16 @@ export class JobListingsComponent implements OnInit {
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
         description: 'A host or hostess greets patrons, seats them at tables, provides menus and introduces them to their waitstaff. They are also responsible for managing the reservation calendar, organizing patrons according to staffing availability, collaborating with room service servers to deliver food to guest rooms and communicating patron needs to restaurant servers.',
-        qualifications: 'Bachelor\'s degree in Statistics, experience with data analysis tools.',
+        qualifications: 'At least 2 years of experience.',
         visible: true
       },
       {
         id: 931,
-        title: 'Executive chef/cook',
+        title: 'Executive Chef/Cook',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
         description: 'An executive chef leads a hotel kitchen by creating recipes and menus, overseeing food preparation and cooking, completing complex cooking tasks, testing meals before they go to patrons and monitoring ingredient inventory.',
-        qualifications: 'Bachelor\'s degree in Statistics, experience with data analysis tools.',
+        qualifications: 'Proven experience as a Head Chef/Cook or similar role for an upscale casual establishment.',
         visible: true
       },
       {
@@ -97,7 +97,7 @@ export class JobListingsComponent implements OnInit {
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
         description: 'An event planner coordinates with vendors and hotel staff to execute special events in the hotel&#39;s rental spaces. They book spaces for hosts, delegate setup tasks, make agendas, reserve entertainment and collaborate with the executive chef and caterers to determine food and beverage services.',
-        qualifications: 'Bachelor\'s degree in Statistics, experience with data analysis tools.',
+        qualifications: 'Bachelor\'s Degree in a related field..',
         visible: true
       },
       // Add more job listings as needed
