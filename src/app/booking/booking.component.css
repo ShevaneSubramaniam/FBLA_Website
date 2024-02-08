@@ -73,10 +73,14 @@ td {
     margin: 5px; /* Add margin for spacing between each td */
 }
 
-.roomImg {
-    width: 100%; /* Adjust as necessary, or set to a fixed width */
-    margin-bottom: 10px; /* Space between the image and the text below */
-  }
+.roomImg{ 
+    width: 15vw; 
+    height: 20vh; 
+    object-fit: cover; 
+    float: left; 
+    margin-right: 15px;
+    border-radius: 10px;
+}
 
 
   .room-title, .room-cost, .amenities-list, .room-description, .bookButton {
