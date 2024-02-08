@@ -30,7 +30,7 @@ export class JobListingsComponent implements OnInit {
       },
       {
         id: 223,
-        title: 'Assistant hotel manager',
+        title: 'Assistant Hotel Manager',
         location: 'San Francisco',
         salary: '$80,000 - $100,000',
         description: 'An assistant hotel manager supports the hotel manager by completing administrative duties, training new staff, managing correspondence, delegating tasks and supervising staff while the hotel manager is unavailable.',
@@ -48,7 +48,7 @@ export class JobListingsComponent implements OnInit {
       },
       {
         id: 777,
-        title: 'Room attendant',
+        title: 'Room Attendant',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
         description: 'A room attendant is responsible for keeping guest rooms clean and stocked with amenities. They may also assist housekeepers in replacing linens and towels and preparing rooms before guests check in..',
@@ -57,7 +57,7 @@ export class JobListingsComponent implements OnInit {
       },
       {
         id: 734,
-        title: 'Parking attendant/Valet',
+        title: 'Parking Attendant/Valet',
         location: 'Atlanta',
         salary: '$60,000 - $80,000',
         description: 'A parking attendant supervises a hotel parking lot or garage, ensuring security, charging guests for parking and keeping the lot or garage clean.',
@@ -66,37 +66,37 @@ export class JobListingsComponent implements OnInit {
       },
       {
         id: 633,
-        title: 'Data Analyst',
+        title: 'Hotel Receptionist',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
-        description: 'Turn data into actionable insights and drive business decision-making.',
-        qualifications: 'Bachelor\'s degree in Statistics, experience with data analysis tools.',
+        description: 'A hotel receptionist, also referred to as a front desk clerk, handles the front desk and is in charge of greeting guests, assigning guests to rooms and providing keys, managing guest accounts, collecting payments, resolving conflicts for guests and delegating guest service tasks to other hotel staff.',
+        qualifications: 'High School diploma or GED equivalent.',
         visible: true
       },
       {
         id: 733,
-        title: 'Data Analyst',
+        title: 'Host/hostess',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
-        description: 'Turn data into actionable insights and drive business decision-making.',
+        description: 'A host or hostess greets patrons, seats them at tables, provides menus and introduces them to their waitstaff. They are also responsible for managing the reservation calendar, organizing patrons according to staffing availability, collaborating with room service servers to deliver food to guest rooms and communicating patron needs to restaurant servers.',
         qualifications: 'Bachelor\'s degree in Statistics, experience with data analysis tools.',
         visible: true
       },
       {
         id: 931,
-        title: 'Data Analyst',
+        title: 'Executive chef/cook',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
-        description: 'Turn data into actionable insights and drive business decision-making.',
+        description: 'An executive chef leads a hotel kitchen by creating recipes and menus, overseeing food preparation and cooking, completing complex cooking tasks, testing meals before they go to patrons and monitoring ingredient inventory.',
         qualifications: 'Bachelor\'s degree in Statistics, experience with data analysis tools.',
         visible: true
       },
       {
         id: 633,
-        title: 'Data Analyst',
+        title: 'Event Planner',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
-        description: 'Turn data into actionable insights and drive business decision-making.',
+        description: 'An event planner coordinates with vendors and hotel staff to execute special events in the hotel&#39;s rental spaces. They book spaces for hosts, delegate setup tasks, make agendas, reserve entertainment and collaborate with the executive chef and caterers to determine food and beverage services.',
         qualifications: 'Bachelor\'s degree in Statistics, experience with data analysis tools.',
         visible: true
       },
