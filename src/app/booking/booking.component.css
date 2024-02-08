@@ -23,5 +23,9 @@
     width: 100%; /* Make the image fill the container */
     height: auto; /* Maintain aspect ratio */
   }
+
+  body {
+    font-family: 'Cormorant Garamond', sans-serif;
+  }
   
   /* Continue with other styles */
