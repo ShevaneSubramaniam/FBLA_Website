@@ -59,6 +59,6 @@ export class BookingComponent implements OnInit {
 
   // Method to display success popup
   showSuccessPopup() {
-    alert('Please call 302-302-3012 to schedule a booking for this room!');
+    alert('Please call 678-491-2863 to schedule a booking for this room!');
   }
 }
