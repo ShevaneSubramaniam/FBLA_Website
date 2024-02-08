@@ -17,6 +17,25 @@ img {
     height: auto;
 }
 
+/* Additional styling for the About Us link */
+.about-link {
+    display: inline-block; /* Treat the link as a block for padding, while keeping it inline */
+    margin-top: 10px; /* Space between the title and the link */
+    font-size: 1em; /* Appropriate font size, adjust as needed */
+    color: #007bff; /* A standard link color, or choose what fits your design */
+    text-decoration: none; /* Removes underline from links */
+    padding: 5px 10px; /* Padding for a better clickable area */
+    border-radius: 5px; /* Softens the edges of the clickable area */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.about-link:hover, .about-link:focus {
+    background-color: #007bff; /* Background color on hover/focus for visibility */
+    color: #ffffff; /* Text color change for contrast on hover/focus */
+    text-decoration: none; /* Ensures underline doesn't reappear on hover/focus */
+}
+
+
 .title {
     position: absolute;
     top: 50%;
