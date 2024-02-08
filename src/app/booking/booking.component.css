@@ -37,21 +37,16 @@ section#booking h1 {
 
 
 .booking-section {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: flex-start; /* Align children to the start (left) */
+    border: 5px solid #9c7d42dc; /* Add a green border around the services section */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center the text within the green box */
 }
 
 
 .surrounding-box {
-    display: block; /* Change to block if you want it to fill the width of its container */
-    background-color: #9b7749; /* Specific shade of brown */
+    display: inline-block; /* Make the box inline with the text */
+    background-color: #9b7749;
     padding: 10px; /* Add padding for spacing */
-    color: #ffffff; /* Changes text color to white for contrast */
-    text-align: left; /* Aligns the text to the left */
-    margin-bottom: 20px; /* Adds space below the box */
-    width: fit-content; /* Adjusts width based on content, ensuring it's not full width */
-    border-radius: 5px; /* Adds rounded corners for aesthetics */
 }
 
 
