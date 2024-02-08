@@ -31,11 +31,28 @@ a{
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap as needed */
+    justify-content: center; /* Centers the items horizontally */
+    align-items: stretch; /* Stretches items to fill the container */
+}
+
+/* Style for columns to ensure consistent spacing and alignment */
+.col-lg-4, .col-md-12 {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: start; /* Aligns items to the start of the column */
+    align-items: center; /* Centers items horizontally within the column */
+    flex: 1; /* Allows the columns to grow and fill the space */
+    margin-bottom: 16px; /* Adds some space between rows */
+}
+
+/* Improved styling for images to make them larger and maintain aspect ratio */
 .image-container img {
-    width: 100% !important; /* Ensures width is always 100% of its container */
-    height: 200px !important; /* Sets a fixed height for all images */
-    object-fit: cover !important; /* Ensures images cover the area without distortion */
-    border-radius: .25rem !important; /* Maintains rounded corners, if desired */
+    max-width: 100%; /* Allows the image to scale based on its container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+    object-fit: contain; /* Ensures the entire image fits within the given dimensions without cropping */
 }
 
 
