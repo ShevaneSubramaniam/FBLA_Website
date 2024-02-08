@@ -25,7 +25,7 @@ export class BookingComponent implements OnInit {
     },
     {
       title: 'Deluxe Room',
-      image: '/assets/Deluxe.jpg',
+      image: '/assets/Deluxe.jpng',
       cost: 150,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar',''],
       description: 'An upgraded room with additional amenities for a luxurious stay.'
