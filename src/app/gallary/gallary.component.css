@@ -31,6 +31,13 @@ a{
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
+.image-container img {
+    width: 100%; /* maintain full width */
+    height: 200px; /* fixed height for all images */
+    object-fit: cover; /* this will cover the area of the given height, might crop images */
+    border-radius: .25rem; /* optional: to maintain rounded corners if desired */
+}
+
 
 
 .header{
