@@ -1,109 +1,53 @@
-body {
-    font-family: 'Cormorant Garamond', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5; /* Set a background color */
-    min-height: 100vh;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
+/* Surrounding box for the section title */
+.surrounding-box {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-section#booking {
+/* Styles for the room cards within the table */
+.roomTable {
+    width: 100%; /* Full width to maximize space */
+    border-collapse: collapse; /* Removes space between borders */
+}
+
+.roomCard {
+    padding: 20px; /* Adds padding around each room card */
+}
+
+.roomImg {
+    display: block; /* Ensures the image does not float */
+    width: 100%; /* Full width of its container */
+    height: auto; /* Keeps the aspect ratio of the image */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Styles for room details to ensure consistent layout */
+.room-details {
+    text-align: left; /* Aligns text to the left */
+}
+
+.amenities-list {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+    margin-bottom: 15px; /* Space below the list */
+}
+
+.amenity-item {
     display: flex;
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
-    background-image: url('/assets/blackFloral.png'); /* Adjust the path to match your folder structure and image file name */
-    background-size: 22%;
-    background-position: center;
-    color: #ffffff; /* Set text color to be visible against the background image */
-    padding: 50px; /* Adjust padding as needed */
-    text-align: center;
-    height: 20vh; /* Adjust the height as needed */
-    
+    align-items: center; /* Centers the bullet and text vertically */
+    margin-bottom: 5px; /* Space between amenities */
 }
-
-section#booking h1 {
-    margin-bottom: 10px; /* Adjust the margin as needed */
-    color: black;
-    font-size: 3vw;
-}
-
-
-
-.booking-section {
-    border: 5px solid #9c7d42dc; /* Add a green border around the services section */
-    padding: 10px; /* Add padding for spacing */
-    text-align: center; /* Center the text within the green box */
-}
-
-
-.surrounding-box {
-    display: inline-block; /* Make the box inline with the text */
-    background-color: #9b7749;
-    padding: 10px; /* Add padding for spacing */
-}
-
-
-
-
-table {
-    width: 80%; /* Adjust the width as needed */
-    border-collapse: collapse;
-    margin: 20px auto; /* Center the table horizontally with auto margins */
-    
-}
-
-
-
-td {
-    padding: 8px;
-    text-align: center;
-    height: 30vh;
-    margin: 5px; /* Add margin for spacing between each td */
-}
-
-.roomImg{ 
-    width: 15vw; 
-    height: 20vh; 
-    object-fit: cover; 
-    float: left; 
-    margin-right: 15px;
-    border-radius: 10px;
-}
-
-
-  .room-title, .room-cost, .amenities-list, .room-description, .bookButton {
-    text-align: center;
-    width: 100%; /* Ensures full width within the card for alignment */
-    margin: 5px 0; /* Adjust margins as needed for spacing */
-  }
 
 .bookButton {
-    background-color: #333; 
-    color: white; 
-    padding: 10px; 
-    border: none; 
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: block; /* Ensures the button is a block element */
+    width: max-content; /* Only as wide as its content */
+    margin: 10px auto; /* Centers the button horizontally with margin */
+    padding: 10px 20px;
 }
 
-.roomTable {
-    margin: 0 auto;
-     border-collapse: separate; 
-     border-spacing: 15px;
-}
-
-
-  .roomCard {
-    border: 2px solid #9c7d42dc; 
-    text-align: left; 
-    padding: 15px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+/* Utility class to clear floats */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
