@@ -113,9 +113,9 @@ td {
     display: flex;
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
-    width: 35vw;
+    width: 28vw;
     text-align: center;
-    height: 30vh;
+    height: 35vh;
     margin: 0 auto; /* Center the card within the table cell */
     border: 2px solid #333; /* Add a green border */
     padding: 10px; /* Add padding for spacing */
