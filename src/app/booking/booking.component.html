@@ -5,11 +5,12 @@
         <div class="surrounding-box">
           <h1>Book a Room</h1>
         </div>
-        <!-- Add rooms-container div here as the flex container -->
         <div class="rooms-container">
-          <!-- ngFor loop to iterate over rooms array -->
           <div *ngFor="let room of rooms" class="roomCard">
-            <img [src]="room.image" alt="{{ room.title }}" class="roomImg">
+            <!-- Image container added here -->
+            <div class="image-container">
+              <img [src]="room.image" alt="{{ room.title }}" class="roomImg">
+            </div>
             <h3>{{ room.title }}</h3>
             <p>Cost: ${{ room.cost }}</p>
             <ul class="amenities-list">
