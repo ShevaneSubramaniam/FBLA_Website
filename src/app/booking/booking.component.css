@@ -14,6 +14,11 @@
     height: auto;
   }
   
+  h1 {
+    text-align: center;
+ }
+ 
+
   .amenities-list {
     list-style: none;
     padding: 0;
