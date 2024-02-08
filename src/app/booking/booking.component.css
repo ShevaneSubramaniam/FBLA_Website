@@ -1,55 +1,41 @@
-/* Surrounding box for the section title */
-.surrounding-box {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Styles for the room cards within the table */
-.roomTable {
-    width: 100%; /* Full width to maximize space */
-    border-collapse: collapse; /* Removes space between borders */
-}
-
-.roomCard {
-    padding: 20px; /* Adds padding around each room card */
-}
-
+/* Adjusts the room image sizes */
 .roomImg {
-    display: block;
-    max-width: 100%; /* Adjusts the image width up to a maximum of the container width */
-    max-height: 200px; /* Limits the image height to 200px */
-    height: auto; /* Maintains the aspect ratio */
-    margin-bottom: 15px; /* Space below the image */
-    object-fit: cover; /* Ensures the image covers the area, might crop */
-}
-
-/* Styles for room details to ensure consistent layout */
-.room-details {
-    text-align: left; /* Aligns text to the left */
-}
-
-.amenities-list {
-    list-style: none; /* Removes default list styling */
-    padding: 0;
-    margin-bottom: 15px; /* Space below the list */
-}
-
-.amenity-item {
+    display: block; /* Ensures the image is a block-level element */
+    max-width: 100%; /* Limits the image width to not exceed its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin: 0 auto 15px; /* Centers the image and adds space below */
+    border-radius: 4px; /* Optional: Adds rounded corners to the image */
+  }
+  
+  /* Styles for the room card to ensure consistent layout */
+  .roomCard {
     display: flex;
-    align-items: center; /* Centers the bullet and text vertically */
-    margin-bottom: 5px; /* Space between amenities */
-}
-
-.bookButton {
-    display: block; /* Ensures the button is a block element */
-    width: max-content; /* Only as wide as its content */
-    margin: 10px auto; /* Centers the button horizontally with margin */
-    padding: 10px 20px;
-}
-
-/* Utility class to clear floats */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+    flex-direction: column;
+    align-items: center; /* Centers content within the card */
+    text-align: center; /* Ensures text elements are centered */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds subtle shadow for depth */
+    margin-bottom: 20px; /* Space between room cards */
+    background-color: #fff; /* Background color for the card */
+    border-radius: 8px; /* Rounded corners for the card */
+  }
+  
+  /* Additional styles for consistency and aesthetics */
+  .room-title, .room-cost, .amenities-list, .room-description, .bookButton {
+    margin: 10px 0; /* Adds vertical spacing around elements */
+  }
+  
+  .bookButton {
+    cursor: pointer; /* Changes the cursor to indicate clickable */
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Text color */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .bookButton:hover {
+    background-color: #0056b3; /* Darker shade on hover for visual feedback */
+  }
+  
