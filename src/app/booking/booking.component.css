@@ -78,7 +78,13 @@ td {
     margin-bottom: 10px; /* Space between the image and the text below */
   }
 
-  
+
+  .room-title, .room-cost, .amenities-list, .room-description, .bookButton {
+    text-align: center;
+    width: 100%; /* Ensures full width within the card for alignment */
+    margin: 5px 0; /* Adjust margins as needed for spacing */
+  }
+
 .bookButton {
     background-color: #333; 
     color: white; 
