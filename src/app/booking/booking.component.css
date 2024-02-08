@@ -28,4 +28,8 @@
     font-family: 'Cormorant Garamond', sans-serif;
   }
   
+  h1 {
+    text-align: center;
+}
+
   /* Continue with other styles */
