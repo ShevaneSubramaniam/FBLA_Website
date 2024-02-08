@@ -15,10 +15,12 @@
 }
 
 .roomImg {
-    display: block; /* Ensures the image does not float */
-    width: 100%; /* Full width of its container */
-    height: auto; /* Keeps the aspect ratio of the image */
+    display: block;
+    max-width: 100%; /* Adjusts the image width up to a maximum of the container width */
+    max-height: 200px; /* Limits the image height to 200px */
+    height: auto; /* Maintains the aspect ratio */
     margin-bottom: 15px; /* Space below the image */
+    object-fit: cover; /* Ensures the image covers the area, might crop */
 }
 
 /* Styles for room details to ensure consistent layout */
