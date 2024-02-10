@@ -17,28 +17,28 @@ interface Room {
 export class BookingComponent implements OnInit {
   rooms: Room[] = [
     {
-      title: 'Khushi Room',
+      title: 'Standard Room',
       image: '/assets/Standard.png',
       cost: 100,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning'],
-      description: 'A comfortable Khushi Room with basic amenities.'
+      description: 'A comfortable standard room with basic amenities.'
     },
     {
-      title: 'Shaandaar Suite',
+      title: 'Deluxe Room',
       image: '/assets/Deluxe.png',
       cost: 150,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar'],
       description: 'An upgraded room with additional amenities for a luxurious stay.'
     },
     {
-      title: 'Kohinoor Suite',
+      title: 'Suite',
       image: '/assets/Suite.png',
       cost: 200,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar', 'Private Jacuzzi'],
       description: 'A spacious suite with premium amenities for a luxurious experience.'
     },
     {
-      title: 'Shaahee Suite',
+      title: 'Royal',
       image: '/assets/Royal.png',
       cost: 250,
       amenities: ['Free Wi-Fi', 'TV', 'Air Conditioning', 'Mini-Bar', 'Private Jacuzzi'],
@@ -59,6 +59,6 @@ export class BookingComponent implements OnInit {
 
   // Method to display success popup
   showSuccessPopup() {
-    alert('Please call 678-491-2863 to schedule a booking for this room!');
+    alert('Please call 302-302-3012 to schedule a booking for this room!');
   }
 }
