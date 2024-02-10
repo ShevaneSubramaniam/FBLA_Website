@@ -44,3 +44,7 @@ section#about-us h1 {
     background-color: #c3ecaa;
     padding: 10px; /* Add padding for spacing */
 }
+
+section p {
+    margin-left: 20px; /* Adjust the value as needed */
+}
