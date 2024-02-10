@@ -68,7 +68,7 @@ export class JobListingsComponent implements OnInit {
         id: 633,
         title: 'Hotel Receptionist',
         location: 'Los Angeles',
-        salary: '$35,000 - $51,000',
+        salary: '$35,000 - $49,000',
         description: 'A hotel receptionist, also referred to as a front desk clerk, handles the front desk and is in charge of greeting guests, assigning guests to rooms and providing keys, managing guest accounts, collecting payments, resolving conflicts for guests and delegating guest service tasks to other hotel staff.',
         qualifications: 'High school diploma or GED equivalent.',
         visible: true
