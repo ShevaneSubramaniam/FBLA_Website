@@ -225,7 +225,7 @@ section#services {
     display: flex;
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
-    background-image: url('/assets/brownfloral.png'); /* Adjust the path to match your folder structure and image file name */
+    background-image: url('/assets/pearlfloral.png'); /* Adjust the path to match your folder structure and image file name */
     background-size: 22%;
     background-position: center;
     color: #ffffff; /* Set text color to be visible against the background image */
