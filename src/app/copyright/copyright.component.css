@@ -12,7 +12,9 @@ main {
 
 section {
     margin-bottom: 20px;
+    padding-left: 20px; /* Adjust the value as needed */
 }
+
 
 section#about-us {
     display: flex;
