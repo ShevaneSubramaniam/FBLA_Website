@@ -77,7 +77,7 @@ export class JobListingsComponent implements OnInit {
         id: 733,
         title: 'Host/Hostess',
         location: 'Los Angeles',
-        salary: '$33,000 - $49,000',
+        salary: '$25,000 - $31,000',
         description: 'A host or hostess greets patrons, seats them at tables, provides menus and introduces them to their waitstaff. They are also responsible for managing the reservation calendar, organizing patrons according to staffing availability, collaborating with room service servers to deliver food to guest rooms and communicating patron needs to restaurant servers.',
         qualifications: 'At least 2 years of experience.',
         visible: true
@@ -86,7 +86,7 @@ export class JobListingsComponent implements OnInit {
         id: 931,
         title: 'Executive Chef/Cook',
         location: 'Los Angeles',
-        salary: '$96,000 - $118,000',
+        salary: '$91,000 - $122,000',
         description: 'An executive chef leads a hotel kitchen by creating recipes and menus, overseeing food preparation and cooking, completing complex cooking tasks, testing meals before they go to patrons and monitoring ingredient inventory.',
         qualifications: 'Proven experience as a Head Chef/Cook or similar role for an upscale casual establishment.',
         visible: true
@@ -95,7 +95,7 @@ export class JobListingsComponent implements OnInit {
         id: 633,
         title: 'Event Planner',
         location: 'Los Angeles',
-        salary: '$45,000 - $56,000',
+        salary: '$62,000 - $77,000',
         description: 'An event planner coordinates with vendors and hotel staff to execute special events in the hotel&#39;s rental spaces. They book spaces for hosts, delegate setup tasks, make agendas, reserve entertainment and collaborate with the executive chef and caterers to determine food and beverage services.',
         qualifications: 'Bachelor\'s Degree in a related field..',
         visible: true

@@ -226,7 +226,7 @@ section#services {
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
     background-image: url('/assets/pearlfloral.png'); /* Adjust the path to match your folder structure and image file name */
-    background-size: 22%;
+    background-size: 20%;
     background-position: center;
     color: #ffffff; /* Set text color to be visible against the background image */
     padding: 50px; /* Adjust padding as needed */
