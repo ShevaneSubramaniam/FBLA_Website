@@ -59,7 +59,7 @@ export class JobListingsComponent implements OnInit {
         id: 734,
         title: 'Parking Attendant/Valet',
         location: 'Atlanta',
-        salary: '$39,000 - $48,000',
+        salary: '$29,000 - $39,000',
         description: 'A parking attendant supervises a hotel parking lot or garage, ensuring security, charging guests for parking and keeping the lot or garage clean.',
         qualifications: 'High school diploma.',
         visible: true
