@@ -227,7 +227,7 @@ section#services {
     justify-content: center; /* Horizontally center the content */
     background-image: url('/assets/pearlfloral.png'); /* Adjust the path to match your folder structure and image file name */
     background-size: 20%;
-    background-position: center 10%;
+    background-position: center;
     color: #ffffff; /* Set text color to be visible against the background image */
     padding: 50px; /* Adjust padding as needed */
     text-align: center;
@@ -235,7 +235,8 @@ section#services {
     border: 3px solid #583b3b; /* Adds a solid black border */
       /* Adjust the width to make the section slightly smaller */
      width: 93%; /* Example: Adjust this percentage as needed */
-    margin: auto; /* Centers the section horizontally */
+     margin: auto auto 20px; /* Centers the section horizontally, adds space at the bottom */
+     margin-top: 50px; 
 }
 
 
