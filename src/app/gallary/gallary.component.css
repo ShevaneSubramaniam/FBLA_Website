@@ -220,3 +220,17 @@ grid-template-rows: 1fr;
     border: 2px solid #678f5e; /* Add a green border around the box */
     padding: 10px; /* Add padding for spacing */
 }
+
+section#services {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    background-image: url('/assets/brownfloral.png'); /* Adjust the path to match your folder structure and image file name */
+    background-size: 22%;
+    background-position: center;
+    color: #ffffff; /* Set text color to be visible against the background image */
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center;
+    height: 20vh; /* Adjust the height as needed */
+    
+}

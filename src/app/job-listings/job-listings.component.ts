@@ -39,7 +39,7 @@ export class JobListingsComponent implements OnInit {
       },
       {
         id: 455,
-        title: 'Director of sales and marketing',
+        title: 'Director of Sales and Marketing',
         location: 'Boston',
         salary: '$120,000 - $180,000',
         description: 'A director of sales and marketing is responsible for setting advertising, marketing and sales goals for the hotel. They also oversee marketing teams in creating ads and promotional materials, create and manage a marketing budget and collaborate with the hotel manager to ensure the hotel&#39;s profitability..',
@@ -52,7 +52,7 @@ export class JobListingsComponent implements OnInit {
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
         description: 'A room attendant is responsible for keeping guest rooms clean and stocked with amenities. They may also assist housekeepers in replacing linens and towels and preparing rooms before guests check in..',
-        qualifications: 'High School diploma or GED equivalent.',
+        qualifications: 'High school diploma or GED equivalent.',
         visible: true
       },
       {
@@ -70,12 +70,12 @@ export class JobListingsComponent implements OnInit {
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
         description: 'A hotel receptionist, also referred to as a front desk clerk, handles the front desk and is in charge of greeting guests, assigning guests to rooms and providing keys, managing guest accounts, collecting payments, resolving conflicts for guests and delegating guest service tasks to other hotel staff.',
-        qualifications: 'High School diploma or GED equivalent.',
+        qualifications: 'High school diploma or GED equivalent.',
         visible: true
       },
       {
         id: 733,
-        title: 'Host/hostess',
+        title: 'Host/Hostess',
         location: 'Los Angeles',
         salary: '$60,000 - $80,000',
         description: 'A host or hostess greets patrons, seats them at tables, provides menus and introduces them to their waitstaff. They are also responsible for managing the reservation calendar, organizing patrons according to staffing availability, collaborating with room service servers to deliver food to guest rooms and communicating patron needs to restaurant servers.',
